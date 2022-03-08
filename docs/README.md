@@ -50,7 +50,9 @@ TODO
 
 #### Neo4j
 
-[Neo4j基础](./neo4j/Neo4j基础.md)        [CQL](Neo4j CQL.md)
+1. [Neo4j基础](./neo4j/Neo4j基础.md)     
+
+2. [CQL](./neo4j/Neo4j CQL.md)
 
 ```
 neo4j: 一个非常流行的图数据库
