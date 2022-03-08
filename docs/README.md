@@ -1,11 +1,66 @@
 # Welcome
 
-> 阅读、学习和研究相关笔记。
+> 关于我阅读、学习和研究的相关笔记。
 >
 > Save notes of my reading, learning and researching.
 
 FlyingFog的个人主页已经由博客转变为文档，以减少花费时间整理和维护相关内容。
 
-感谢[docsify]()提供了一个非常简单的实现方式。
+感谢[docsify](https://github.com/docsifyjs/docsify)提供了一个非常简单的实现方式。
 
-# 笔记分类
+# 分类
+
+分类主要用于快速跳转至对应界面。
+
+## 主要研究
+
+> Main Research Field
+>
+> 智能合约. 形式化验证. 代码分析
+>
+> Smart Contract. Formal Verification. Code Analysis.   
+
+### 形式化验证
+
+模型检测
+
+```
+The handbook of model checking.
+```
+
+### 区块链
+
+[区块链基础](./blockchain/blockchain.md)
+
+```
+北大《区块链技术与应用》课程笔记
+```
+
+### 智能合约
+
+```
+TODO
+```
+
+
+
+## 其他相关
+
+> 记录与研究领域关系不大的计算机、软件、金融、经济等相关知识。
+
+#### Neo4j
+
+[Neo4j基础](./neo4j/Neo4j基础.md)        [CQL](Neo4j CQL.md)
+
+```
+neo4j: 一个非常流行的图数据库
+CQL: 一种图数据库的查询语言
+```
+
+
+
+## 文哲艺术
+
+> 也许你也对文学与哲学感兴趣。
+
+>  TODO

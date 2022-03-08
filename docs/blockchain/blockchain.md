@@ -238,7 +238,7 @@ actual time: time spent mining the last 2016 blocks
 
 ..................
 
-![image-20201103154024123](E:\MyGit\Pre-Postgraduate\learning\blockchain\pic\image-20201103154024123.png)
+![image-20201103154024123](.\pic\image-20201103154024123.png)
 
 + 脚本
 
@@ -371,7 +371,7 @@ output script
 + OP_RETURN实际操作，无条件返回错误如何被验证？
  + 什么叫验证通过？
 	验证的时候是把当前输入和前一个输出拼接执行
-RETURN 写在当前输出，不会被执行，即下一个验证的时候才会被使用
+	RETURN 写在当前输出，不会被执行，即下一个验证的时候才会被使用
 + 如何确定是哪个矿工最先找到nonce？
 发布的区块里有一个coinbase tx包含矿工收款地址，修改则会引起hash发生变化
 + 交易费可以看做是小费，但事先如何知道哪一个得到
