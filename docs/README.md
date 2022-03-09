@@ -8,6 +8,8 @@ FlyingFog的个人主页已经由博客转变为文档，以减少花费时间�
 
 感谢[docsify](https://github.com/docsifyjs/docsify)提供了一个非常简单的实现方式。
 
+
+
 # 分类
 
 分类主要用于快速跳转至对应界面。
@@ -22,7 +24,7 @@ FlyingFog的个人主页已经由博客转变为文档，以减少花费时间�
 
 ### 形式化验证
 
-模型检测
+#### 模型检测
 
 ```
 The handbook of model checking.
@@ -30,7 +32,7 @@ The handbook of model checking.
 
 ### 区块链
 
-[区块链基础](./blockchain/blockchain.md)
+#### [区块链基础](/blockchain/blockchain.md)
 
 ```
 北大《区块链技术与应用》课程笔记
@@ -42,17 +44,14 @@ The handbook of model checking.
 TODO
 ```
 
-
-
 ## 其他相关
 
 > 记录与研究领域关系不大的计算机、软件、金融、经济等相关知识。
 
-#### Neo4j
+### 图数据库
 
-1. [Neo4j基础](./neo4j/Neo4j基础.md)     
-
-2. [CQL](./neo4j/Neo4j CQL.md)
+1. #### [Neo4j基础](/neo4j/Neo4j基础.md)     
+2. #### [CQL](/neo4j/Neo4jCQL.md)
 
 ```
 neo4j: 一个非常流行的图数据库
@@ -66,3 +65,9 @@ CQL: 一种图数据库的查询语言
 > 也许你也对文学与哲学感兴趣。
 
 >  TODO
+
+
+
+---
+
+> 有问题可issue或邮件，但科研打工繁忙，估计没有时间。
