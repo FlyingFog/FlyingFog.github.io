@@ -64,7 +64,51 @@
 
 与其他相关方法的**区别**：
 
+**efficiency versus expressiveness (or precision)**   
+
 1. 测试Testing：最快和简单的方式检测错误。While testing is only debugging, model checking is systematic debugging aimed at model verification.  Chapter 19 will discuss the cross-fertilization of modern model-checking and white-box testing techniques.
 2. 抽象解释Abstract interpretation: Abstract interpretation and other program analyses are similar to model checking in that they employ algorithms to prove program properties automatically.遵循编程语言语义而非逻辑的传统，静态分析框架（如数据流分析、抽象解释和富类型系统）是基于格理论构建的。In comparison to model checking, the focus of program analyses is on efficiency rather than expressiveness, and on code rather than models. In recent research on software verification, abstract interpretation and model checking have converged to a large extent.
 3. 高阶理论证明Higher-order theorem proving：  is a powerful and proven approach for the verification of complex systems. In comparison to model checking, the focus of higher-order theorem proving is on expressiveness rather than efficiency: it handles data manipulation precisely and typically aims at full functional correctness. 
+
+模型检查的特点不是单纯的方法，而是以调试和分析现实世界中存在的、可以建模为状态转换系统的动态系统为目标。
+
+## 时序逻辑模型检测初探
+
+### 克里普克结构 kripke structure
+
+- 顶点用原子命题集标记的有限有向图
+- 图的顶点和边被称为“状态”和“转移”
+- $K=<S,R,L>, S状态集，R \subseteq S \times S转移关系，L:S \to 2^A把每个状态与一个原子命题集合关联。$ $L(s)代表s状态下为真的原子命题集合。$ 假设R是完全的。  
+
+### CTL*
+
+A propositional modal logic with path quantifiers, which are interpreted over states, and temporal operators, which are interpreted over paths.  
+
+![image-20220314000731592](\pic\image-20220314000731592.png)
+
+![image-20220314000839323](\pic\image-20220314000839323.png)
+
+
+
+![image-20220314001032613](\pic\image-20220314001032613.png)
+
+![image-20220314000907037](\pic\image-20220314000907037.png)
+
+### CTL
+
+
+
+### LTL
+
+
+
+## 本书章节概述
+
+### 算法挑战
+
+### 建模挑战
+
+
+
+## 模型检测的未来
 
