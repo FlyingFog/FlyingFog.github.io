@@ -64,6 +64,7 @@
 
 与其他相关方法的**区别**：
 
-1. 测试Testing：最快和简单的方式检测错误
-2. 抽象解释Abstract interpretation：
-3. 高阶理论证明Higher-order theorem proving：  
+1. 测试Testing：最快和简单的方式检测错误。While testing is only debugging, model checking is systematic debugging aimed at model verification.  Chapter 19 will discuss the cross-fertilization of modern model-checking and white-box testing techniques.
+2. 抽象解释Abstract interpretation: Abstract interpretation and other program analyses are similar to model checking in that they employ algorithms to prove program properties automatically.遵循编程语言语义而非逻辑的传统，静态分析框架（如数据流分析、抽象解释和富类型系统）是基于格理论构建的。In comparison to model checking, the focus of program analyses is on efficiency rather than expressiveness, and on code rather than models. In recent research on software verification, abstract interpretation and model checking have converged to a large extent.
+3. 高阶理论证明Higher-order theorem proving：  is a powerful and proven approach for the verification of complex systems. In comparison to model checking, the focus of higher-order theorem proving is on expressiveness rather than efficiency: it handles data manipulation precisely and typically aims at full functional correctness. 
+
