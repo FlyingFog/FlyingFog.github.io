@@ -24,7 +24,7 @@ FlyingFog的个人主页已经由博客转变为文档，以减少花费时间�
 
 ### 形式化验证
 
-#### 模型检测
+#### [模型检测](/modelchecking/#)
 
 ```
 The handbook of model checking.

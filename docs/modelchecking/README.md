@@ -1,10 +1,10 @@
 # chapters of the book
 
+> Each chapter of this handbook is a survey in its own right, and reflects the viewpoint, the notation, and the terminology used by the specialists in the respective research area. The handbook chapters are intended as independent introductions to the state-of-the-art research literature on specific topics rather than as chapters of a monograph.  
 
 
 
-
-#### [Introduction to Model Checking](./ch1_Intro.md)
+#### [Introduction to Model Checking](../modelchecking/ch1_Intro.md)
 
 #### Temporal Logic and Fair Discrete Systems
 
