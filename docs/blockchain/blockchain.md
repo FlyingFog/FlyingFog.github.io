@@ -216,17 +216,17 @@ actual time: time spent mining the last 2016 blocks
 
 + 挖矿设备
 
-  ​	CPU->GPU->ASIC(application specific integrated circut, 某种mining puzzle)
+  - CPU->GPU->ASIC(application specific integrated circut, 某种mining puzzle)
 
 + 矿池
 
-  ​	pool manager ---- 很多miner
+  - pool manager ---- 很多miner
 
-  ​	工作量证明 收益分配
+  - 工作量证明 收益分配
 
-  ​	如果矿池占到50%+算力：folking attack(分叉) boycott(封锁)
+  - 如果矿池占到50%+算力：folking attack(分叉) boycott(封锁)
 
-  ​	on demand computing(mining)
+  - on demand computing(mining)
 
 
 
@@ -341,15 +341,15 @@ output script
 
 **soft fork**
 
-​	临时性的	
+- 临时性的	
 
-​	例子：假设更新1M-->0.5M
+- 例子：假设更新1M-->0.5M
 
-​	实际情况：增加新的含义 coinbase （extra nonce）
+- 实际情况：增加新的含义 coinbase （extra nonce）
 
-​	历史例子：P2SH
+- 历史例子：P2SH
 
-​	只要有半数以上更新了，就不会出现永久性的分叉
+- 只要有半数以上更新了，就不会出现永久性的分叉
 
 
 
@@ -472,8 +472,6 @@ public:
 
 
 
-
-
 ## 3 以太坊
 
 ### 3.1 以太坊概述
@@ -515,9 +513,11 @@ branch factor 0-F
 无碰撞
 插入顺序无关
 更新局部性
+
 **Patricai tree**
 路径压缩前缀树
 键值分布比较稀疏
+
 **MTP**
 Merkle Patricia tree
 
@@ -726,7 +726,7 @@ virtual mining
 
 为什么一开始不用权益证明
 
-​	没有得到检验
+​	——没有得到检验
 
 
 
@@ -775,24 +775,24 @@ fallback函数
 智能合约的创建和运行
 
 + 智能合约的代码写完后，要编译成bytecode
-
 + 创建合约：外部账户发起一个转账交易到0x0地址
++ 转账金额是0，但是要支付汽油费
 
-​	+ 转账金额是0，但是要支付汽油费
-
-​	+ 合约代码放在data域里
+- 合约代码放在data域里
 
 + 智能合约运行在EVM上
 
 + 以太坊是一个交易驱动的状态机
 
-​	+ 调用智能合约的交易发布到区块链上后，每个矿工都会执行这个交易，确定性转移到下一个状态
++ 调用智能合约的交易发布到区块链上后，每个矿工都会执行这个交易，确定性转移到下一个状态
+
+  
 
 **汽油费（gas fee）**
 
 + 智能合约是一个图灵完备模型
 
-​	+ halting problem 出现死循环
+- halting problem 出现死循环
 
 + 执行合约中的指令要收取汽油费，发起人支付
 
@@ -806,11 +806,11 @@ fallback函数
 
 + 可以抛出错误的语句
 
-​	+ assert(bool condition):内部错误
+- assert(bool condition):内部错误
 
-​	+ require：输入或者外部错误
+- require：输入或者外部错误
 
-​	+ revert():终止运行并回滚
+- revert():终止运行并回滚
 
 嵌套调用
 
@@ -824,7 +824,7 @@ fallback函数
 
 
 
-先执行还是先挖矿？
+**先执行还是先挖矿**？
 
 block header --> 需要先执行合约得到hash，再执行
 
@@ -832,13 +832,13 @@ block header --> 需要先执行合约得到hash，再执行
 
 
 
-执行错误的交易是否发布？
+**执行错误的交易是否发布**？
 
 需要发布--扣掉汽油费--交易执行情况
 
 
 
-智能合约是否支持多线程？
+**智能合约是否支持多线程**？
 
 确定性的交易驱动状态机-->多线程多内存访问结果不确定
 
@@ -898,11 +898,11 @@ The DAO(区块链上众筹 本质是一个智能合约)
 
 投资后取回—splitDAO—也是建立子基金的方法（childDAO）—极端即为1个人
 
-问题：
+**问题**：
 
 splitDAO代码 （问题：先转账再清零 ）
 
-补救：
+**补救**：
 
 软件升级（相关区块锁定 软分叉失败 --> 强制退回硬分叉 投票）
 
