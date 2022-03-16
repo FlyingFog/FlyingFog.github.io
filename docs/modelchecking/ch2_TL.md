@@ -46,14 +46,24 @@ One of the most important features of programs and systems is concurrency, or th
 
 ### Kripke Structures  
 
-![image-20220315155733549](\pic\image-20220315155733549.png)	
+<img src="\pic\image-20220315155733549.png" alt="image-20220315155733549" style="zoom:85%;" />	
+
+However, in model checking, higher-level representations of transition systems provide a more direct relation to programs and enable us to reason about systems using sets of states rather than individual states.   
+
+- The idea is that states are obtained by interpreting the values of variables of the system  
+- In addition, in the context of model checking it is sometimes necessary to ignore some “not interesting” runs of the system.   
 
 ### Definition of Fair Discrete System  
 
+![image-20220316160809892](\pic\image-20220316160809892.png)	
 
+![image-20220316160857898](\pic\image-20220316160857898.png)	
+
+![image-20220316160923975](\pic\image-20220316160923975.png)	
 
 ### Representing Programs  
 
 
 
 ### Algorithms  
+
