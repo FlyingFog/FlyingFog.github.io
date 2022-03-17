@@ -61,9 +61,23 @@ However, in model checking, higher-level representations of transition systems p
 
 ![image-20220316160923975](\pic\image-20220316160923975.png)	
 
+<img src="\pic\image-20220317101250877.png" alt="image-20220317101250877" style="zoom:100%;" />	
+
+![image-20220317101343076](\pic\image-20220317101343076.png)	
+
+![image-20220317101405894](\pic\image-20220317101405894.png)	
+
+$\mathscr{D}_{1} ||| \mathscr{D}_{2}=\left\langle\mathscr{V} 1 \cup \mathscr{V}_{2}, \theta_{1} \wedge \theta_{2}, \rho_{1} \wedge \rho_{2}, \mathscr{J}_{1} \cup \mathscr{J}_{2}, \mathscr{C}_{1} \cup \mathscr{C}_{2}\right\rangle$
+
 ### Representing Programs  
 
+We do not formally define a programming language, however, the meaning of commands and constructs will be clear from the translation to FDSs. 
 
+考虑如图1所示的程序，它可以表示为一个FDS，运用 $\pi$ 代表程序在$\{l_0,...,l3 \}$的程序变量 和 $n$是一个从10开始的整数。
+
+形式化的，$\mathscr{D} = \langle \{\pi,n\},\theta, \rho, \mathscr{}  \rangle$
+
+<img src="\pic\image-20220317104519396.png" alt="image-20220317104519396" style="zoom:90%;" />	
 
 ### Algorithms  
 
