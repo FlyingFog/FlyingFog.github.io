@@ -71,13 +71,11 @@ $\mathscr{D}_{1} ||| \mathscr{D}_{2}=\left\langle\mathscr{V} 1 \cup \mathscr{V}_
 
 ### Representing Programs  
 
-We do not formally define a programming language, however, the meaning of commands and constructs will be clear from the translation to FDSs. 
+We do not formally define a programming language, however, the meaning of commands and constructs will be clear from the translation to FDSs. FDSs是状态转以系统的一个简单变体。
 
-考虑如图1所示的程序，它可以表示为一个FDS，运用 $\pi$ 代表程序在$\{l_0,...,l3 \}$的程序变量 和 $n$是一个从10开始的整数。
+考虑如图1所示的程序，它可以表示为一个FDS，运用 $\pi$ 代表程序在$\{l_0,...,l3 \}$的程序变量 和 $n$是一个从10开始的整数。形式化的，$\mathscr{D} = \langle \{\pi,n\},\theta, \rho, \mathscr{J}, \mathscr{C} \rangle$，其中$\mathscr{J}, \mathscr{C}$为空，$\theta, \rho,$如下：
 
-形式化的，$\mathscr{D} = \langle \{\pi,n\},\theta, \rho, \mathscr{}  \rangle$
-
-<img src="\pic\image-20220317104519396.png" alt="image-20220317104519396" style="zoom:90%;" />	
+<img src="\pic\image-20220317104519396.png" alt="image-20220317104519396" style="zoom:90%;" />	对于程序，我们总是假设转移关系$\rho$包含a disjunct the option to stutter, that is, do nothing.This allows us to model the environment of a single processor that devotes attention to one of many threads.  Given a program counter variable, we denote by atli the formula π = li. In case of multiple program counters, we assume that their ranges are disjoint and identify the right variable by its range, e.g., one program counter ranges over li and the other over mi making π = mi unambiguous. Similarly, at‘_li is π' = li
 
 ### Algorithms  
 
