@@ -256,26 +256,27 @@ public static class ExternalToolsManager
 
 本章重点
 
+`namespace SolToBoogie`
+
 BoogieTranslator.cs
 
 ```cs
 using BoogieAST;
 using SolidityAST;
-
+// 按步骤逐步翻译solidity to boogie
 public class BoogieTranslator
     {
     // set of method@contract pairs whose translatin is skipped
     public BoogieAST Translate(AST solidityAST, HashSet<Tuple<string, string>> ignoredMethods, TranslatorFlags _translatorFlags = null, String entryPointContract = "")
     {
         bool generateInlineAttributesInBpl = _translatorFlags.GenerateInlineAttributes;
-
         SourceUnitList sourceUnits = solidityAST.GetSourceUnits();
-
+        // 翻译文本
         TranslatorContext context = new TranslatorContext(ignoredMethods, generateInlineAttributesInBpl, _translatorFlags, entryPointContract);
         context.IdToNodeMap = solidityAST.GetIdToNodeMap();
         context.SourceDirectory = solidityAST.SourceDirectory;
 
-        // collect the absolute source path and line number for each AST node
+        // 收集每个AST节点的绝对源路径和行号
         SourceInfoCollector sourceInfoCollector = new SourceInfoCollector(context);
         sourceUnits.Accept(sourceInfoCollector);
 
@@ -292,11 +293,11 @@ public class BoogieTranslator
         InheritanceCollector inheritanceCollector = new InheritanceCollector(context);
         inheritanceCollector.Collect();
 
-        // collect explicit state variables
+        // collect explicit state variables 显示状态变量
         StateVariableCollector stateVariableCollector = new StateVariableCollector(context);
         sourceUnits.Accept(stateVariableCollector);
 
-        // resolve state variable declarations and determine the visible ones for each contract
+        // resolve state variable declarations and determine the visible ones for each contract 状态变量声明和可见性
         StateVariableResolver stateVariableResolver = new StateVariableResolver(context);
         stateVariableResolver.Resolve();
 
@@ -316,11 +317,11 @@ public class BoogieTranslator
         FunctionEventResolver functionEventResolver = new FunctionEventResolver(context);
         functionEventResolver.Resolve();
 
-        // add types, gobal ghost variables, and axioms
+        // add types, gobal ghost variables, and axioms 
         GhostVarAndAxiomGenerator generator = new GhostVarAndAxiomGenerator(context);
         generator.Generate();
 
-        // collect modifiers information
+        // collect modifiers information 修饰符信息
         ModifierCollector modifierCollector = new ModifierCollector(context);
         sourceUnits.Accept(modifierCollector);
 
@@ -359,6 +360,209 @@ public class BoogieTranslator
     }
 }
 ```
+
+
+
+ConstructorCollector.cs
+
+```cs
+public class ConstructorCollector : BasicASTVisitor{
+    public ConstructorCollector(TranslatorContext context){}
+    // 构造函数和fallback函数增加context
+    public override bool Visit(ContractDefinition node){}
+}
+```
+
+
+
+ContractCollector.cs
+
+```cs
+public class ContractCollector : BasicASTVisitor{
+    public ContractCollector(TranslatorContext context){}
+    // 直接添加合约内容
+    public override bool Visit(ContractDefinition node){}
+}
+```
+
+
+
+FallbackGenerator.cs
+
+```cs
+public class FallbackGenerator{
+    public void Generate(){
+        // 构建一笔fallback的交易
+        List<BoogieVariable> inParams = new List<BoogieVariable>()
+        {
+            new BoogieFormalParam(new BoogieTypedIdent("from", BoogieType.Ref)),
+            new BoogieFormalParam(new BoogieTypedIdent("to", BoogieType.Ref)),
+            new BoogieFormalParam(new BoogieTypedIdent("amount", BoogieType.Int))
+        };
+        
+        // 构造procName, inParams, outParams, localVars, procBody
+        // let us havoc all the global variables when fallback_unknowntype is called
+        var modSet = context.Program.Declarations.Where(x => x is BoogieGlobalVariable).Select(x => (BoogieGlobalVariable)x).ToList();    
+    
+    
+    }
+    private BoogieStmtList CreateBodyOfSend(List<BoogieVariable> inParams, List<BoogieVariable> outParams, string fbProcName){
+        // --构造fromIdExp 、 amtIdExp
+        var guard = new BoogieBinaryOperation(BoogieBinaryOperation.Opcode.GE,new BoogieMapSelect(new BoogieIdentifierExpr("Balance"), fromIdExp),amtIdExp);
+     	// call FallbackDispatch(from, to, amount)
+        var toIdExpr = new BoogieIdentifierExpr(inParams[1].Name);
+        var callStmt = new BoogieCallCmd(
+            fbProcName,
+            new List<BoogieExpr>() { fromIdExp, toIdExpr, amtIdExp},
+            new List<BoogieIdentifierExpr>()
+        );
+
+        var thenBody = new BoogieStmtList();
+        var successIdExp = new BoogieIdentifierExpr(outParams[0].Name);
+        thenBody.AddStatement(callStmt); 
+        thenBody.AddStatement(new BoogieAssignCmd(successIdExp, new BoogieLiteralExpr(true)));
+
+        var elseBody = new BoogieAssignCmd(successIdExp, new BoogieLiteralExpr(false));
+
+        return BoogieStmtList.MakeSingletonStmtList(new BoogieIfCmd(guard, thenBody, BoogieStmtList.MakeSingletonStmtList(elseBody)));
+    
+    }
+    private BoogieStmtList CreateBodyOfUnknownFallback(List<BoogieVariable> fbLocalVars, List<BoogieVariable> inParams){
+		// 构建未知回调
+      //  
+    }
+	private BoogieStmtList GenerateBodyOfFallbackDispatch(List<BoogieVariable> inParams, string fbUnknownProcName){
+        
+    }
+}
+```
+
+
+
+FunctionEventCollector.cs
+
+```cs
+public class FunctionEventCollector : BasicASTVisitor
+{
+	public override bool Visit(ContractDefinition node){}
+   public override void EndVisit(ContractDefinition node){}
+   public override bool Visit(EventDefinition node) 
+	public override bool Visit(FunctionDefinition node)
+}
+
+```
+
+FunctionEventResolver.cs
+
+```cs
+/**
+     * Determine the visible functions/events for each contract considering
+     * the inheritance hierarchy, and put the information in the context.
+     */
+public class FunctionEventResolver{
+    // require the ContractDefinitions member is populated
+    // require the ContractToFunctionsMap member is populated    
+    private void ResolveFunctions(){
+        
+    }
+    private void ComputeVisibleFunctions(){
+        
+    }
+
+}
+```
+
+
+
+GhostVarAndAxiomGenerator.cs
+
+// 没懂继续
+
+```cs
+public class GhostVarAndAxiomGenerator{
+    public void Generate()
+    {
+        GenerateTypes();
+        GenerateConstants();
+        GenerateFunctions();
+        GenerateGlobalVariables();
+        GenerateGlobalImplementations();
+        GenerateAxioms();
+    }    
+    private void GenerateFunctions(){
+        各种类别的函数声明
+    }
+
+	private void GenerateTypes(){
+        if (context.TranslateFlags.NoCustomTypes)
+        {
+            context.Program.AddDeclaration(new BoogieTypeCtorDecl("Ref", BoogieType.Int));
+            context.Program.AddDeclaration(new BoogieTypeCtorDecl("ContractName", BoogieType.Int));
+        }
+        else
+        {
+            context.Program.AddDeclaration(new BoogieTypeCtorDecl("Ref"));
+            context.Program.AddDeclaration(new BoogieTypeCtorDecl("ContractName"));
+        }
+    }
+   private void GenerateConstants(){
+    }
+
+	private void GenerateGlobalVariables(){
+        
+    }
+	private void GenerateGlobalImplementations(){
+        
+    }
+}
+
+```
+
+HarnessGenerator.cs
+
+```cs
+
+
+```
+
+HoudiniHelper.cs
+
+```cs
+public class HoudiniHelper
+{
+    // returns a map from integer id to an atomic Boogie predicate
+    public static Dictionary<int, BoogieExpr> GenerateHoudiniVarMapping(ContractDefinition contract, TranslatorContext context)
+    {
+        Dictionary<int, BoogieExpr> ret = new Dictionary<int, BoogieExpr>();
+        HashSet<VariableDeclaration> stateVars = context.GetVisibleStateVarsByContract(contract);
+		// collect all state variables of type address
+        ...
+      // equaility and disequality to null
+		...
+      // pair-wise equality and disequality
+            ...
+      // PrintHoudiniCandidateMap(ret);      
+    }
+	private static BoogieMapSelect GetBoogieExprOfStateVar(VariableDeclaration varDecl, TranslatorContext context){
+        
+    }
+
+}
+```
+
+InheritanceCollector.cs
+
+```cs
+```
+
+
+
+InheritanceCollector.cs
+
+```cs
+```
+
+
 
 ## VeriSol
 
