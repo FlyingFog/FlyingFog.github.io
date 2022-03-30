@@ -6,9 +6,11 @@
 
 FlyingFog的个人主页已经由博客转变为文档，以减少花费时间整理和维护相关内容。
 
+待哪一日我有了publication后，或者做的工作可公开后再启动补充。
+
 感谢[docsify](https://github.com/docsifyjs/docsify)提供了一个非常简单的实现方式。
 
-
+以下内容看情况可能会pub在其他官网，只能说看情况而定。
 
 # 分类
 
@@ -26,23 +28,23 @@ FlyingFog的个人主页已经由博客转变为文档，以减少花费时间�
 
 #### [模型检测](/modelchecking/#)
 
-```
-The handbook of model checking.
-```
+> The handbook of model checking.
 
 ### 区块链
 
 #### [区块链基础](/blockchain/blockchain.md)
 
-```
-北大《区块链技术与应用》课程笔记
-```
+> 北大《区块链技术与应用》课程笔记
 
 ### 智能合约
 
 ```
 TODO
 ```
+
+### 数字经济
+
+> 只会软件分析技术能吃几碗饭？
 
 ## 其他相关
 

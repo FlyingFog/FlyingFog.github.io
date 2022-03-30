@@ -26,7 +26,7 @@ cryptographic hash function
 
 + hiding  x-->H(x) 单向   各种取值差不多
 
-​	结合实现 --> digital commitment / digital  equivalent of a sealed envelope
+​		结合实现 --> digital commitment / digital  equivalent of a sealed envelope
 
 ​		sealed envelope：预测结果会影响结果--不提前公开--不能篡改（公布H(x)，验证x，实际x||nonce）
 
