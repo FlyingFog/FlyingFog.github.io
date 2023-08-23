@@ -1,2 +1,10 @@
 docs/vx_notebook/*
 vx.json
+.idea
+.vscode
+.DS_Store
+exampleSite/public/
+exampleSite/resources/
+*.lock
+public/
+resources/

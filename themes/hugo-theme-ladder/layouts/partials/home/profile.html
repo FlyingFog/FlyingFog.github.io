@@ -1,0 +1,27 @@
+<div class="home">
+    <div class="info">
+        <div class="intro">
+            <h1>{{ .Site.Params.author }}</h1>
+        <p>
+            <small>- {{ .Params.phd }}</small>
+        </p>
+        <p><small>- {{ .Params.bs }}</small></p>    
+        </div>
+
+        {{ if .Site.Params.avatarURL }}
+        {{ with .Site.Params.avatarURL }}
+        <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
+        {{ end }}
+        {{ end }}
+    </div>
+
+    <section class="blog-content">{{ .Content }}</section>
+
+
+
+    <div class="centertext" style="text-align: center; margin-top: 5%;">
+      <small>  {{.Params.motto1}} </small>
+    </div>
+    
+
+</div>
