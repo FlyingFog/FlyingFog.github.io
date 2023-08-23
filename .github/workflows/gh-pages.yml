@@ -3,7 +3,7 @@ name: generate github pages to gh-pages branch
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - main  # Set a branch to deploy
 
 jobs:
   deploy:
