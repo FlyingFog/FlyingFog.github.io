@@ -4,8 +4,8 @@ I have reconstructed the homepage, since there are many new things to share.
 
 
 ## TODO
- -[x] Add past blogs into the hugo framework.
- -[x] Rebuild some modules
+ - [x] Add past blogs into the hugo framework.
+ - [x] Rebuild some modules
 
 
 
