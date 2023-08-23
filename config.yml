@@ -1,10 +1,10 @@
-baseURL: '/' # set https://username.github.io if you are using GitHub Pages
+baseURL: 'https://FlyingFog.github.io' # set https://username.github.io if you are using GitHub Pages
 title: FlyingFog
 theme: hugo-theme-ladder
 license: MIT
 licenselink: ''
 description: 'A fast, clean Hugo theme'
-homepage: '/' # set https://username.github.io
+homepage: 'https://FlyingFog.github.io' # set https://username.github.io
 defaultContentLanguage: 'en'
 googleAnalytics: G-KWWFBC1Q0Q
 paginate: 10
