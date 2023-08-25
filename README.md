@@ -1,6 +1,6 @@
 # FlyingFog Github Page
 
-Here is the [Homepage]([FlyingFog.github.io](https://FlyingFog.github.io)).
+Here is the [Homepage](https://FlyingFog.github.io).
 
 
 I have reconstructed the homepage, since there are many new things to share.
