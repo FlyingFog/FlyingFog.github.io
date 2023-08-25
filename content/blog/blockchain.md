@@ -1,6 +1,8 @@
 ---
-title: "Blog"
+title: "Blockchain fundamental"
 layout: "blog"
+tags: ["blockchain"]
+series: ["blockchain"]
 ---
 
 

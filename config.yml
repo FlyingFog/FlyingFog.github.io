@@ -1,5 +1,5 @@
 baseURL: 'https://FlyingFog.github.io' # set https://username.github.io if you are using GitHub Pages
-title: FlyingFog
+title: Sicheng Hao
 theme: hugo-theme-ladder
 license: MIT
 licenselink: ''
@@ -46,22 +46,22 @@ params:
     enableMultiLang: true
     showMetaTags: true
   darkModeTheme: data-dark-mode
-  sponsors:
-    title: Sponsors
-  comments:
-    giscus:
-      enable: true
-      repo: guangzhengli/hugo-ladder-exampleSite
-      repo_id: R_kgDOHyVOjg
-      category: Announcements
-      category_id: DIC_kwDOHyVOjs4CQsH7
-      mapping: pathname
-      position: top
-      lang: en # pick a language from https://github.com/giscus/giscus/tree/main/locales
-    utteranc:
-      enable: false
-      repo: guangzhengli/blog-comments
-      issueTerm: pathname
+  # sponsors:
+  #   title: Sponsors
+  # comments:
+  #   giscus:
+  #     enable: true
+  #     repo: guangzhengli/hugo-ladder-exampleSite
+  #     repo_id: R_kgDOHyVOjg
+  #     category: Announcements
+  #     category_id: DIC_kwDOHyVOjs4CQsH7
+  #     mapping: pathname
+  #     position: top
+  #     lang: en # pick a language from https://github.com/giscus/giscus/tree/main/locales
+  #   utteranc:
+  #     enable: false
+  #     repo: guangzhengli/blog-comments
+  #     issueTerm: pathname
   analytics:
     google:
       SiteVerificationTag: xxx

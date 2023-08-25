@@ -24,7 +24,7 @@
             {{ with .Site.Params.social}}
             {{ range sort . }}
             <li class="navigation-item navigation-social">
-                <a class="navigation-link" href="{{ .url | relURL }}">{{ .pre | safeHTML }}</a>
+                <a class="navigation-link" href="{{ .url }}">{{ .pre | safeHTML }}</a>
             </li>
             {{ end }}
             {{ end }}

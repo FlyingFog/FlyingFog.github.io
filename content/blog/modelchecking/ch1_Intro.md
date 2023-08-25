@@ -1,3 +1,10 @@
+---
+title: "Introduction to Model Checking"
+layout: "blog"
+tags: ["model checking"]
+series: ["model checking"]
+---
+
 # Chapter 1 Introduction to Model Checking   
 
 ## 摘要

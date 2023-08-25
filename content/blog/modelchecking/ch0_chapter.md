@@ -1,6 +1,8 @@
 ---
-title: "Blog"
+title: "Model Checking Chapter"
 layout: "blog"
+tags: ["model checking"]
+series: ["model checking chapter"]
 ---
 
 # chapters of the book
@@ -14,7 +16,11 @@ layout: "blog"
 #### Temporal Logic and Fair Discrete Systems
 
 #### Modeling for Verification
+
+
 #### Automata Theory and Model Checking
+
+
 #### Explicit-State Model Checking
 #### Partial-Order Reduction
 #### Binary Decision Diagrams

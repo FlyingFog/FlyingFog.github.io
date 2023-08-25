@@ -1,6 +1,8 @@
 ---
-title: "Blog"
+title: "Temporal logics"
 layout: "blog"
+tags: ["model checking"]
+series: ["model checking"]
 ---
 
 # 时序逻辑和公平离散系统
