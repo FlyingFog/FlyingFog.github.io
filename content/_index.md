@@ -10,10 +10,12 @@ motto2: Life is too long to end at the grave.
 I am a graduate student working on software engineering at the Inplus Lab of Sun Yat-sen University. My research interests include software security, program analysis and smart contracts. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, I have been drawing much effort on the digital economy at the top-level planning due to programs of our lab. 
 
 ### Research Publication
--[ASE'23] **Sicheng Hao**, Yuhong Nan, Zibin Zheng, Xiaohui Liu. SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding. [PDF]()
+-[ASE'23] **Sicheng Hao**, Yuhong Nan, Zibin Zheng, Xiaohui Liu. SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding. 
+[PDF](./) [Code](https://github.com/FlyingFog/SmartCoCo)
 
 
--[ISSTA'23] Zeqin Liao, **Sicheng Hao**, Yuhong Nan, Zibin Zheng. SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis. [PDF]()
+-[ISSTA'23] Zeqin Liao, **Sicheng Hao**, Yuhong Nan, Zibin Zheng. SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis. 
+[PDF](https://doi.org/10.1145/3597926.3598111) [Code](https://github.com/InPlusLab/SmartState)
 
 
 

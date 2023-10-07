@@ -1,1 +1,35 @@
-建造中 building...
+---
+title: Sicheng Hao
+phd: 中山大学, 软件工程, 2021-now
+bs: 四川大学, 计算机科学与技术, 2017-2021
+contact: "haosch@mail2.sysu.edu.cn"
+motto1: A worm will turn into a butterfly, before one can answer "who am I".
+motto2: Life is too long to end at the grave.
+---
+
+I am a graduate student working on software engineering at the Inplus Lab of Sun Yat-sen University. My research interests include software security, program analysis and smart contracts. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, I have been drawing much effort on the digital economy at the top-level planning due to programs of our lab. 
+
+### 研究论文
+-[ASE'23] **Sicheng Hao**, Yuhong Nan, Zibin Zheng, Xiaohui Liu. SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding. 
+[PDF](./) [Code](https://github.com/FlyingFog/SmartCoCo)
+
+
+-[ISSTA'23] Zeqin Liao, **Sicheng Hao**, Yuhong Nan, Zibin Zheng. SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis. 
+[PDF](https://doi.org/10.1145/3597926.3598111) [Code](https://github.com/InPlusLab/SmartState)
+
+
+
+### 咨询报告
+
+-[数据资产] Power Data Element Valuation, White Paper, 2022-2023.
+ 
+-[区块链]  Blockchain+ Fintech Industry, Consultation Report, 2021-2022. 
+
+-[数字化] Digital Economy Development in Nanhai, Consultation Report, 2021-2022.
+
+
+### 杂项
+
+FlyingFog and its variety are common nicknames I used on social networks.
+
+I am really looking forward to learning cutting-edge techniques on program analysis and text analytics. If you have same interests or wonderful insights to share, please let me know.
