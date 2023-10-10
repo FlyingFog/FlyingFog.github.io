@@ -21,11 +21,11 @@ I am a graduate student working on software engineering at the Inplus Lab of Sun
 
 ### 咨询报告
 
--[数据资产] Power Data Element Valuation, White Paper, 2022-2023.
+-[数据资产] 电力数据要素评估白皮书, 2022-2023.
  
--[区块链]  Blockchain+ Fintech Industry, Consultation Report, 2021-2022. 
+-[区块链]  区块链+金融科技产业调研报告, 2021-2022. 
 
--[数字化] Digital Economy Development in Nanhai, Consultation Report, 2021-2022.
+-[数字化] 南海区数字经济发展研究报告, 2021-2022.
 
 
 ### 杂项
