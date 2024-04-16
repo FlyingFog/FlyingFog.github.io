@@ -10,12 +10,20 @@ motto2: Life is too long to end at the grave.
 I am a graduate student working on software engineering at the Inplus Lab of Sun Yat-sen University. My research interests include software security, program analysis and smart contracts. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, I have been drawing much effort on the digital economy at the top-level planning due to programs of our lab. 
 
 ### 研究论文
--[ASE'23] **Sicheng Hao**, Yuhong Nan, Zibin Zheng, Xiaohui Liu. SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding. 
-[PDF](./) [Code](https://github.com/FlyingFog/SmartCoCo)
+> 这太难翻译了，就用英文吧
+
+[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
+Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu
 
 
--[ISSTA'23] Zeqin Liao, **Sicheng Hao**, Yuhong Nan, Zibin Zheng. SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis. 
-[PDF](https://doi.org/10.1145/3597926.3598111) [Code](https://github.com/InPlusLab/SmartState)
+[**ASE'23**] SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding.   
+***Sicheng Hao***, Yuhong Nan, Zibin Zheng, Xiaohui Liu.  
+[PDF](https://ieeexplore.ieee.org/document/10298432/), [Code](https://github.com/FlyingFog/SmartCoCo), [Slide](./pdf/SmartCoCo%20Slide.pdf)
+
+
+[**ISSTA'23**] SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis.   
+Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.  
+[PDF](https://doi.org/10.1145/3597926.3598111), [Code](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
 
 

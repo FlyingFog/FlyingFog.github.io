@@ -12,7 +12,8 @@ I am a graduate student working on software engineering at the [Inplus Lab](http
 ### Research Publication
 > Time for research is so limited, but hard and interesting.
 
-[**FSE'24**] To see in this Spring.
+[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
+Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu
 
 
 [**ASE'23**] SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding.   
@@ -26,15 +27,14 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 
 
 ### Consultation Report
-> Due to business, copyright, and data privacy, I can only provide few information about these projects. If you are interesting, you can contact with corresponding departments or companies.   
-> See more in [the Chinese homepage](./zh), since all the reports are written in Chinese.
+> Aka soft programs. Due to business, copyright, and data privacy, I can only provide few information about these projects. If you are interesting, you can contact with corresponding departments or companies. More in [the Chinese homepage](./zh).
 
-[Data Assets]  White Paper: Power Data Element Valuation.    
+[Data Assets]  Research on Data Capitalization Strategy in Shenzhen.  
+Shenzhen Association for Science and Technology. 2023. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
+
+[Data Assets]  White Paper: Power Data Valuation.    
 China South Grid. 2022-2023. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
  
-[Blockchain]  Blockchain+ Fintech Industry.    
-Nanhai, Foshan. 2021-2022. 
-
 [Digitalization] Building Digitalization Center in Lijiao.   
 Zhuguang Holdings. 2021-2022.
 
@@ -45,12 +45,11 @@ Nanhai, Foshan. 2021-2022.
 ### Misc
 
 #### Language
-**OOP**: Python for research, C/C++ for program contests, C# for MS tools, JavaScript for Web.      
-**FP** : Ocaml for PL-related tasks and fun.          
+**Programming Languages**: **Python** for research, **C/C++** for program contests, **C#** for MS tools, **JavaScript** for Web. **Ocaml** for PL-related tasks and fun.          
 **Nature Languages**: Chinese(Standard, Sichuan dialect), English for most situations. Some Cantonese and Japanese.
 
 
 #### Other
-**FlyingFog** and its variety are common nicknames I used on social networks.
+**FlyingFog** and its varieties are common nicknames I used on Social Networks and Online Games. Know more about this nickname.
 
 I am really looking forward to learning cutting-edge techniques on program analysis and text analytics. If you have same interests or wonderful insights to share, please let me know.
