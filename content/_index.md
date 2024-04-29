@@ -10,15 +10,15 @@ motto2: Life is too long to end at the grave.
 I am a graduate student working on software engineering at the [Inplus Lab](https://inpluslab.com/) of Sun Yat-sen University. My research interests include *software security, program analysis and smart contracts*. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, based on soft programs of our lab, I have been drawing much effort on the digital economy and data assets. 
 
 ### Research Publication
-> Time for research is so limited, but hard and interesting.
-
-[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
-Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu
-
 
 [**ASE'23**] SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding.   
 ***Sicheng Hao***, Yuhong Nan, Zibin Zheng, Xiaohui Liu.  
 [PDF](https://ieeexplore.ieee.org/document/10298432/), [Code](https://github.com/FlyingFog/SmartCoCo), [Slide](./pdf/SmartCoCo%20Slide.pdf)
+
+
+[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
+Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu.  
+[PDF](), [Code](https://github.com/InPlusLab/FSE24-SmartAxe)
 
 
 [**ISSTA'23**] SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis.   
@@ -26,19 +26,22 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 [PDF](https://doi.org/10.1145/3597926.3598111), [Code](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
 
-### Consultation Report
-> Aka soft programs. Due to business, copyright, and data privacy, I can only provide few information about these projects. If you are interesting, you can contact with corresponding departments or companies. More in [the Chinese homepage](./zh).
+### Project & Program
+> Including Science Reseach, Soft programs, Engineering projects. Due to business, copyright, and data privacy, only few information can be listed. If you are interesting, you can contact with corresponding departments or companies. More in [the Chinese homepage](./zh).
 
-[Data Assets]  Research on Data Capitalization Strategy in Shenzhen.  
-Shenzhen Association for Science and Technology. 2023. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
+[Soft Project, Data Assets]  Research on Data Capitalization Strategy in Shenzhen.  
+Shenzhen Association for Science and Technology. 2022-2024. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
 
-[Data Assets]  White Paper: Power Data Valuation.    
+[Reaseach, Smart Contract] Consistency and Security in Smart contract.  
+Webank. 2021-2023. [FYI.](https://cloud.tencent.com/developer/article/2194159)
+
+[Soft Project, Data Assets]  White Paper: Power Data Valuation.    
 China South Grid. 2022-2023. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
  
-[Digitalization] Building Digitalization Center in Lijiao.   
+[Soft Project, Digitalization] Building Digitalization Center in Lijiao.   
 Zhuguang Holdings. 2021-2022.
 
-[Digitalization] Digital Economy Development in Nanhai.   
+[Soft Project, Digitalization] Digital Economy Development in Nanhai.   
 Nanhai, Foshan. 2021-2022.
 
 
