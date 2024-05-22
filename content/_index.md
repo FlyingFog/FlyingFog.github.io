@@ -7,18 +7,19 @@ motto1: A worm will turn into a butterfly, before one can answer "who am I".
 motto2: Life is too long to end at the grave.
 ---
 
-I am a graduate student working on software engineering at the [Inplus Lab](https://inpluslab.com/) of Sun Yat-sen University. My research interests include *software security, program analysis and smart contracts*. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, based on soft programs of our lab, I have been drawing much effort on the digital economy and data assets. 
+I am a graduate student working on software engineering at the [Inplus Lab](https://inpluslab.com/) of Sun Yat-sen University. My research interests include *software engineering and smart contracts*. Now, I am  supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, based on soft programs of our lab, I have been drawing much effort on the digital economy and data assets. 
 
 ### Research Publication
+> I am now focusing on different security aspects of smart contracts. Besides basic program analysis, I am trying to solve problems between human intention and code.
+
+[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
+Zeqin Liao, Henglong Liang, Yuhong Nan, ***Sicheng Hao***, Zibin Zheng, Juan Zhai, Jiajing Wu.  
+[PDF](), [Code](https://github.com/InPlusLab/FSE24-SmartAxe)
+
 
 [**ASE'23**] SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding.   
 ***Sicheng Hao***, Yuhong Nan, Zibin Zheng, Xiaohui Liu.  
 [PDF](https://ieeexplore.ieee.org/document/10298432/), [Code](https://github.com/FlyingFog/SmartCoCo), [Slide](./pdf/SmartCoCo%20Slide.pdf)
-
-
-[**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
-Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu.  
-[PDF](), [Code](https://github.com/InPlusLab/FSE24-SmartAxe)
 
 
 [**ISSTA'23**] SmartState: Detecting State-Reverting Vulnerabilities in Smart Contracts via Fine-Grained State-Dependency Analysis.   
@@ -48,7 +49,7 @@ Nanhai, Foshan. 2021-2022.
 ### Misc
 
 #### Language
-**Programming Languages**: **Python** for research, **C/C++** for program contests, **C#** for MS tools, **JavaScript** for Web. **Ocaml** for PL-related tasks and fun.          
+**Programming Languages**: **Python** and **Solidity** for research, **C/C++** for program contests, **C#** for MS tools, **JavaScript** for Web. **Ocaml** for PL-related tasks and fun.          
 **Nature Languages**: Chinese(Standard, Sichuan dialect), English for most situations. Some Cantonese and Japanese.
 
 
