@@ -14,7 +14,7 @@ I am a graduate student working on software engineering at the [Inplus Lab](http
 
 [**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
 Zeqin Liao, Henglong Liang, Yuhong Nan, ***Sicheng Hao***, Zibin Zheng, Juan Zhai, Jiajing Wu.  
-[PDF](), [Code](https://github.com/InPlusLab/FSE24-SmartAxe)
+[PDF](https://dl.acm.org/doi/10.1145/3643738), [Code](https://github.com/InPlusLab/FSE24-SmartAxe)
 
 
 [**ASE'23**] SmartCoCo: Checking Comment-code Inconsistency in Smart Contracts via Constraint Propagation and Binding.   
@@ -50,7 +50,7 @@ Nanhai, Foshan. 2021-2022.
 
 #### Language
 **Programming Languages**: **Python** and **Solidity** for research, **C/C++** for program contests, **C#** for MS tools, **JavaScript** for Web. **Ocaml** for PL-related tasks and fun.          
-**Nature Languages**: Chinese(Standard, Sichuan dialect), English for most situations. Some Cantonese and Japanese.
+**Nature Languages**: Chinese(Standard, Sichuan dialect), English. Some Cantonese and Japanese.
 
 
 #### Other
