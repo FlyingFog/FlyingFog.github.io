@@ -1,6 +1,6 @@
 ---
 title: Sicheng Hao
-phd: 中山大学, 软件工程, 2021-now
+phd: 中山大学, 软件工程, 2021至今
 bs: 四川大学, 计算机科学与技术, 2017-2021
 contact: "haosch@mail2.sysu.edu.cn"
 motto1: A worm will turn into a butterfly, before one can answer "who am I".
@@ -27,17 +27,10 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 
 
 
-### 咨询报告
+### 项目课题
 
 -[数据资产] 电力数据要素评估白皮书, 2022-2023.
  
--[区块链]  区块链+金融科技产业调研报告, 2021-2022. 
+-[区块链] 区块链+金融科技产业调研报告, 2021-2022. 
 
 -[数字化] 南海区数字经济发展研究报告, 2021-2022.
-
-
-### 杂项
-
-FlyingFog and its variety are common nicknames I used on social networks.
-
-I am really looking forward to learning cutting-edge techniques on program analysis and text analytics. If you have same interests or wonderful insights to share, please let me know.
