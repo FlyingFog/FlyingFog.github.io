@@ -1,7 +1,7 @@
 ---
 title: Sicheng Hao
-phd: SYSU, software engineering, 2021-now
-bs: SCU, computer science and technology, 2017-2021
+phd: SYSU, Software engineering, 2021-now
+bs: SCU, Computer science and technology, 2017-2021
 contact: "haosch@mail2.sysu.edu.cn"
 motto1: A worm will turn into a butterfly, before one can answer "who am I".
 motto2: Life is too long to end at the grave.
@@ -30,11 +30,11 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 ### Project & Program
 > Including Science Reseach, Soft programs, Engineering projects. Limited information can be listed. More in [the Chinese homepage](./zh).
 
-[Soft Project, Data Assets]  Research on Data Capitalization Strategy in Shenzhen.  
-Shenzhen Association for Science and Technology. 2022-2024. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
+[Soft Project, Data Assets] Research on Data Capitalization Strategy in Shenzhen.  
+Shenzhen Association for Science and Technology. 2022-2023. [FTI.](http://www.szsta.org/zxzx_89860/tzgg/content/post_893010.html)
 
 [Reaseach, Smart Contract] Consistency and Security in Smart contract.  
-Webank. 2021-2023. [FYI.1](https://cloud.tencent.com/developer/article/2194159) 
+Webank. 2021-2023. [FYI.](https://cloud.tencent.com/developer/article/2194159) 
 
 [Soft Project, Data Assets]  White Paper: Power Data Valuation.    
 China South Grid. 2022-2023. [FYI.](https://baike.baidu.com/item/%E7%94%B5%E5%8A%9B%E6%95%B0%E6%8D%AE%E8%A6%81%E7%B4%A0%E4%BB%B7%E5%80%BC%E8%AF%84%E4%BC%B0%E7%99%BD%E7%9A%AE%E4%B9%A6/63038844?fr=ge_ala)
