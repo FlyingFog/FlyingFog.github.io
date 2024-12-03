@@ -10,7 +10,7 @@
 
         {{ if .Site.Params.avatarURL }}
         {{ with .Site.Params.avatarURL }}
-        <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
+        <div class="avatar"><img id="avatar" src="{{ . | relURL }}" alt="avatar", onclick="changeAvatar()"></div>
         {{ end }}
         {{ end }}
     </div>
@@ -23,5 +23,18 @@
       <small>  {{.Params.motto1}} </small>
     </div>
     
+    <script>
+        function changeAvatar() {
+            var avatar = document.getElementById('avatar');
+            var avatarURL1 = "{{ .Site.Params.avatarURL | relURL }}";
+            var avatarURL2 = "{{ .Site.Params.avatarURL2 | relURL }}";
+    
+            if (avatar.src.includes(avatarURL1)) {
+                avatar.src = avatarURL2;
+            } else {
+                avatar.src = avatarURL1;
+            }
+        }
+    </script>
 
 </div>

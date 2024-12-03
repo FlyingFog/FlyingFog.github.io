@@ -3,7 +3,7 @@ title: Sicheng Hao
 theme: hugo-theme-ladder
 license: MIT
 licenselink: ''
-description: 'A fast, clean Hugo theme'
+description: 'Homepage of Sicheng Hao'
 homepage: 'https://FlyingFog.github.io' # set https://username.github.io
 defaultContentLanguage: 'en'
 googleAnalytics: G-KWWFBC1Q0Q
@@ -36,10 +36,11 @@ menu:
 params:
   brand: HOME
   avatarURL: /images/avatar.jpg
+  avatarURL2: /images/avatar2.jpg
   author: Sicheng Hao
-  authorDescription: A clean, fast hugo theme focused on Reading
-  info: Ladder is a clean, simple but beautiful theme with awesome features  # information of your blog site
-  favicon: /favicon.png                                               # blog site icon，replace your avatar in the /static/images/
+  authorDescription: A normal student
+  info:  A graduate student working on software engineering at the Inplus Lab of Sun Yat-sen University.  # information of your blog site
+  favicon: favicon.png                                               # blog site icon，replace your avatar in the /static/images/
   options:
     showDarkMode: true
     enableImgZooming: true
