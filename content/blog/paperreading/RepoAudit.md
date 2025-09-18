@@ -1,3 +1,10 @@
+---
+title: "Paper Reading - RepoAudit "
+layout: "blog"
+tags: ["paper"]
+series: ["paper"]
+---
+
 今年，Vibe Coding爆火，文学专精的朋友和我说他也能写App了。
 
 > 那他是不是也能参加找bug行列了。
