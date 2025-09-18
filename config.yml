@@ -7,7 +7,7 @@ description: 'Homepage of Sicheng Hao'
 homepage: 'https://FlyingFog.github.io' # set https://username.github.io
 defaultContentLanguage: 'en'
 googleAnalytics: G-KWWFBC1Q0Q
-paginate: 10
+pagination.pagerSize: 10
 hasCJKLanguage: true
 copyright: "2023 FlyingFog All rights reserved"
 Author:

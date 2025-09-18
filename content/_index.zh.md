@@ -7,7 +7,7 @@ motto1: A worm will turn into a butterfly, before one can answer "who am I".
 motto2: Life is too long to end at the grave.
 ---
 
-中山大学软件工程学院，InplusLab实验室，软件工程PhD在读。目前，我在郑子彬教授和南雨宏副教授的指导下开展研究工作，主要研究问题包括软件安全和智能合约。同时，基于实验室长期在数字经济和数字化领域的耕耘，我也尝试在顶层设计和实施路径上为我国数字经济发展添砖加瓦。
+中山大学软件工程学院，InplusLab实验室，软件工程PhD在读。目前，我在郑子彬教授和南雨宏副教授的指导下开展研究工作，主要研究问题包括软件安全和智能合约。同时，基于实验室在数字经济和数字化领域的长期耕耘，我也尝试在顶层设计和实施路径上为数字经济发展添砖加瓦，参与到国内顶级政府机构和企业的建设途径中。
 
 ### 项目经历
 
@@ -38,6 +38,11 @@ motto2: Life is too long to end at the grave.
 ### 研究论文
 
 针对智能合约可靠性问题开展相关研究。
+
+[**TOSEM**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.
+***Sicheng Hao***, Yuhong Nan, Zeqin Liao, Juan Zhai, Zibin Zheng.
+[PDF](https://dl.acm.org/doi/pdf/10.1145/3765755), [Code](https://github.com/0x0FOG/SPADE)
+
 
 [**FSE'24**] SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis.  
 Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai, Jiajing Wu
