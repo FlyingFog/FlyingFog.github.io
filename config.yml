@@ -13,9 +13,6 @@ pagination:
   pagerSize: 10
 hasCJKLanguage: true
 copyright: "2023 FlyingFog All rights reserved"
-Author:
-  name: "Sicheng Hao"
-  email: "flyingfog@foxmail.com"
 menu:
   main:
     - name: Blog
@@ -47,6 +44,7 @@ params:
   avatarURL: /images/avatar.jpg
   avatarURL2: /images/avatar2.jpg
   author: Sicheng Hao
+  authorEmail: "flyingfog@foxmail.com"
   authorDescription: A normal student
   info:  A graduate student working on software engineering at the Inplus Lab of Sun Yat-sen University.  # information of your blog site
   favicon: favicon.png                                               # blog site icon，replace your avatar in the /static/images/
@@ -93,9 +91,11 @@ params:
       url: 'mailto:haosch@mail2.sysu.edu.cn'
 languages:
   en:
-    languageName: EN
+    label: EN
+    locale: en-US
   zh:
-    languageName: 中
+    label: 中
+    locale: zh-CN
     params:
       author: Hao Sicheng
       authorDescription: 一个美观，快速并且专注于阅读的主题

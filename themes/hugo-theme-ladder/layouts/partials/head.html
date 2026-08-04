@@ -21,13 +21,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
 
-    {{ if .Site.IsServer }}
-    {{ $cssFile := (dict "targetPath" "css/main.css" "enableSourceMap" true ) }}
-    {{ $styles := resources.Get "/scss/app.scss" | toCSS $cssFile }}
+    {{ if hugo.IsServer }}
+    {{ $cssFile := (dict "targetPath" "css/main.css" "enableSourceMap" true "transpiler" "dartsass" "silenceDeprecations" (slice "import")) }}
+    {{ $styles := resources.Get "/scss/app.scss" | css.Sass $cssFile }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
     {{ else }}
-    {{ $cssFile := (dict "targetPath" "css/main.css" ) }}
-    {{ $styles := resources.Get "/scss/app.scss" | toCSS $cssFile | minify | fingerprint }}
+    {{ $cssFile := (dict "targetPath" "css/main.css" "transpiler" "dartsass" "silenceDeprecations" (slice "import")) }}
+    {{ $styles := resources.Get "/scss/app.scss" | css.Sass $cssFile | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
     {{ end }}
 

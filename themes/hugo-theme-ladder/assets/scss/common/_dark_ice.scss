@@ -1,9 +1,11 @@
 $body-bg-dark: #181a1b;
-$body-overlay-dark: darken($body-bg-dark, 2.5%);
+@use "sass:color";
+
+$body-overlay-dark: color.adjust($body-bg-dark, $lightness: -2.5%);
 
 $border-dark: $gray-800;
 $body-color-dark: $gray-300;
-$dots-dark: darken($body-color-dark, 50%);
+$dots-dark: color.adjust($body-color-dark, $lightness: -50%);
 
 $color-dark-line: #1f434c;
 $color-dark-card-bg: #10262b;

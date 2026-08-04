@@ -16,5 +16,5 @@ I have reconstructed the homepage, since there are many new things to share.
 This template is powered by many wonderful open source project.
 
 ## License
-All my contents are under MIT License.
+All my independent code except blogs are under MIT License.
 For other parts, please refer to their origin license.

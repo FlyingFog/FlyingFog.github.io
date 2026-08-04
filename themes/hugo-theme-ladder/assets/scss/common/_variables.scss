@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Color system
 
 $white:    #fff;
@@ -37,11 +39,11 @@ $link-color-dark: #42a5f5;
 
 
 $body-bg-dark: #181a1b;
-$body-overlay-dark: darken($body-bg-dark, 2.5%);
+$body-overlay-dark: color.adjust($body-bg-dark, $lightness: -2.5%);
 
 $border-dark: $gray-800;
 $body-color-dark: $gray-300;
-$dots-dark: darken($body-color-dark, 50%);
+$dots-dark: color.adjust($body-color-dark, $lightness: -50%);
 
 $color-dark-cyan: #84ebd9;
 $color-dark-blue: #6ab0e5;
