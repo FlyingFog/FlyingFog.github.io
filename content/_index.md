@@ -36,6 +36,7 @@ Zeqin Liao, Henglong Liang, Yuhong Nan, ***Sicheng Hao***, Zibin Zheng, Juan Zha
 Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.  
 [[PDF]](https://doi.org/10.1145/3597926.3598111), [[Code]](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
+**[Full pub →](./publications/)**
 
 ### Project & Program
 > Including Science Reseach, Soft programs, Engineering projects. Limited information can be listed. More in [the Chinese homepage](./zh).
@@ -58,6 +59,7 @@ Zhuguang Holdings. 2021-2022.
 [Soft Project, Digitalization] Digital Economy Development in Nanhai District.   
 Nanhai, Foshan. 2021-2022.
 
+**[Full proj →](./projects/)**
 
 ### Misc
 

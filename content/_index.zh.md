@@ -34,6 +34,8 @@ motto2: Life is too long to end at the grave.
 [软课题，数字经济] 南海区数字经济发展研究. 
 佛山市南海区. 2021-2022.
 
+**[完整项目列表 →](./projects/)**
+
 
 ### 研究论文
 
@@ -57,6 +59,6 @@ Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai,
 Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.  
 [PDF](https://doi.org/10.1145/3597926.3598111), [Code](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
-
+**[完整论文列表 →](./publications/)**
 
 
