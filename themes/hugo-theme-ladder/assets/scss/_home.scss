@@ -79,6 +79,26 @@
       }
     }
   }
+
+  .motto-container {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .motto {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+
+    &:hover,
+    &:focus-visible {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
 }
 
 .notfound {

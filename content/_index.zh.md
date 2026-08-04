@@ -3,8 +3,9 @@ title: Sicheng Hao
 phd: 中山大学, 软件工程, 2021至今
 bs: 四川大学, 计算机科学与技术, 2017-2021
 contact: "haosch@mail2.sysu.edu.cn"
-motto1: A worm will turn into a butterfly, before one can answer "who am I".
-motto2: Life is too long to end at the grave.
+mottos:
+  - A worm will turn into a butterfly, before one can answer "who am I".
+  - Life is too long to end at the grave.
 ---
 
 中山大学软件工程学院，InplusLab实验室，软件工程PhD在读。目前，我在郑子彬教授和南雨宏副教授的指导下开展研究工作，主要研究问题包括软件安全和智能合约。同时，基于实验室在数字经济和数字化领域的长期耕耘，我也尝试在顶层设计和实施路径上为数字经济发展添砖加瓦，参与到国内顶级政府机构和企业的建设途径中。
@@ -60,5 +61,4 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 [PDF](https://doi.org/10.1145/3597926.3598111), [Code](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
 **[完整论文列表 →](./publications/)**
-
 

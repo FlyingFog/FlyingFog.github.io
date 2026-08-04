@@ -19,9 +19,32 @@
 
 
 
-    <div class="centertext" style="text-align: center; margin-top: 5%;">
-      <small>  {{.Params.motto1}} </small>
+    {{ with .Params.mottos }}
+    <div class="motto-container">
+      <button class="motto" id="motto" type="button" aria-label="Show another motto" title="Click for another motto">
+        <small id="motto-text" aria-live="polite"></small>
+      </button>
     </div>
+    <script>
+        const mottos = {{ . | jsonify | safeJS }};
+        const mottoText = document.getElementById('motto-text');
+        let currentMottoIndex = -1;
+
+        function showRandomMotto() {
+            let nextMottoIndex = Math.floor(Math.random() * mottos.length);
+            if (mottos.length > 1) {
+                while (nextMottoIndex === currentMottoIndex) {
+                    nextMottoIndex = Math.floor(Math.random() * mottos.length);
+                }
+            }
+            currentMottoIndex = nextMottoIndex;
+            mottoText.textContent = mottos[currentMottoIndex];
+        }
+
+        document.getElementById('motto').addEventListener('click', showRandomMotto);
+        showRandomMotto();
+    </script>
+    {{ end }}
     
     <script>
         function changeAvatar() {
