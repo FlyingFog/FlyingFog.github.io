@@ -1,6 +1,6 @@
 ---
 title: Sicheng Hao
-phd: 中山大学, 软件工程, 2021至今
+phd: 中山大学, 软件工程, 2021-2026
 bs: 四川大学, 计算机科学与技术, 2017-2021
 contact: "haosch@mail2.sysu.edu.cn"
 mottos:

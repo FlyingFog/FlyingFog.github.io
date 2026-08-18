@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Homepage Information"
+  short_description: "Append homepage updates to full content lists"
+  default_prompt: "Use $sync-homepage-info to sync my homepage additions to the full lists."

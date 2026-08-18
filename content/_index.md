@@ -1,6 +1,6 @@
 ---
 title: Sicheng Hao
-phd: SYSU, Software engineering, 2021-now
+phd: SYSU, Software engineering, 2021-2026
 bs: SCU, Computer science and technology, 2017-2021
 contact: "haosch@mail2.sysu.edu.cn"
 mottos:
@@ -13,12 +13,12 @@ I am a PhD student working on software engineering at the [Inplus Lab](https://i
 ### Research Publication
 > I am now focusing on different security aspects of smart contracts. Besides basic program analysis, I am trying to solve problems between development intention and code.
 
-[**电子学报26**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  
+[**电子学报'26**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  
 ***Sicheng Hao***, Guipeng Wei, Yuming Xiao, Yuhong Nan, Peilin Zheng, Zibin Zheng.  
 [[PDF]](10.12263/DZXB.20251003), [[Code]](https://github.com/0x0FOG/SPADE)
 
 
-[**TOSEM25**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  
+[**TOSEM'25**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  
 ***Sicheng Hao***, Yuhong Nan, Zeqin Liao, Juan Zhai, Zibin Zheng.  
 [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3765755), [[Code]](https://github.com/0x0FOG/SPADE)
 
