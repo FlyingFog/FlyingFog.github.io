@@ -44,7 +44,10 @@ Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.
 > Including Science Reseach, Soft programs, Engineering projects. Limited information can be listed. More in [the Chinese homepage](./zh).
 
 
-[Soft Project, Data Element] Accelerating Market-based Allocation of Data Elements in Longhua District
+[Reaseach Project, App Governance] Tencent Rhino-bird Research Elite Program. 2025-2026.
+
+
+[Soft Project, Data Element] Accelerating Market-based Allocation of Data Elements in Longhua District.
 Longhua, Shenzhen. 2023-2024.
 
 
