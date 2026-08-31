@@ -13,9 +13,9 @@ I am a PhD student working on software engineering at the [Inplus Lab](https://i
 ### Research Publication
 > I am now focusing on different security aspects of smart contracts. Besides basic program analysis, I am trying to solve problems between development intention and code.
 
-[**电子学报'26**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  
+[**电子学报'26**] Identification and Migration of Silent Security Patches in Blockchain Systems via Information Fusion.  
 ***Sicheng Hao***, Guipeng Wei, Yuming Xiao, Yuhong Nan, Peilin Zheng, Zibin Zheng.  
-[[PDF]](10.12263/DZXB.20251003), [[Code]](https://github.com/0x0FOG/SPADE)
+[[PDF]](10.12263/DZXB.20251003), [[Code]](https://github.com/0x0FOG/BlockPatch)
 
 
 [**TOSEM'25**] Detecting and Analyzing Fine-grained Third-party Library Dependencies in Solidity Smart Contracts.  

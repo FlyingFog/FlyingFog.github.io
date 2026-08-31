@@ -1,0 +1,31 @@
+$pink-star-cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M16 2.5l3.5 8.62 9.29.67-7.12 6.02 2.24 9.05L16 21.96l-7.91 4.9 2.24-9.05-7.12-6.02 9.29-.67L16 2.5z' fill='none' stroke='%23ffb6d9' stroke-width='2.2' stroke-linejoin='round' transform='rotate(-15 16 16)'/%3E%3C/svg%3E") 16 16;
+$pink-star-action-cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M16 2.5l3.5 8.62 9.29.67-7.12 6.02 2.24 9.05L16 21.96l-7.91 4.9 2.24-9.05-7.12-6.02 9.29-.67L16 2.5z' fill='none' stroke='%23ff82bd' stroke-width='2.2' stroke-linejoin='round' transform='rotate(-15 16 16)'/%3E%3Cpath d='M27 1.8l1 2.2 2.2 1-2.2 1-1 2.2L26 6l-2.2-1L26 4l1-2.2z' fill='%23ff82bd'/%3E%3C/svg%3E") 16 16;
+
+// Keep touch-only devices on their native behavior and replace every desktop
+// cursor state, including pointer and text cursors, with the same star artwork.
+@media (pointer: fine) {
+  html.star-cursor-active,
+  html.star-cursor-active body,
+  html.star-cursor-active body * {
+    cursor: $pink-star-cursor, auto !important;
+  }
+
+  html.star-cursor-active :is(
+    a[href],
+    button:not(:disabled),
+    summary,
+    select:not(:disabled),
+    label[for],
+    input[type="button"]:not(:disabled),
+    input[type="checkbox"]:not(:disabled),
+    input[type="file"]:not(:disabled),
+    input[type="radio"]:not(:disabled),
+    input[type="reset"]:not(:disabled),
+    input[type="submit"]:not(:disabled),
+    [role="button"],
+    [role="link"],
+    [onclick]
+  ) {
+    cursor: $pink-star-action-cursor, pointer !important;
+  }
+}

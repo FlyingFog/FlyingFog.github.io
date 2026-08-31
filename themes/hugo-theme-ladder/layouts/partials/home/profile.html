@@ -10,7 +10,12 @@
 
         {{ if .Site.Params.avatarURL }}
         {{ with .Site.Params.avatarURL }}
-        <div class="avatar"><img id="avatar" src="{{ . | relURL }}" alt="avatar", onclick="changeAvatar()"></div>
+        <div class="avatar">
+            <span class="avatar-hint" id="avatar-hint" aria-live="polite"></span>
+            <button class="avatar-button" id="avatar-button" type="button" aria-label="Show alternate portrait" aria-pressed="false">
+                <img id="avatar" src="{{ . | relURL }}" alt="Portrait of {{ $.Site.Params.author }}">
+            </button>
+        </div>
         {{ end }}
         {{ end }}
     </div>
@@ -47,17 +52,46 @@
     {{ end }}
     
     <script>
-        function changeAvatar() {
-            var avatar = document.getElementById('avatar');
-            var avatarURL1 = "{{ .Site.Params.avatarURL | relURL }}";
-            var avatarURL2 = "{{ .Site.Params.avatarURL2 | relURL }}";
-    
-            if (avatar.src.includes(avatarURL1)) {
-                avatar.src = avatarURL2;
-            } else {
-                avatar.src = avatarURL1;
-            }
-        }
+        (() => {
+            const avatar = document.getElementById('avatar');
+            const avatarButton = document.getElementById('avatar-button');
+            const avatarHint = document.getElementById('avatar-hint');
+            const avatarURL1 = "{{ .Site.Params.avatarURL | relURL }}";
+            const avatarURL2 = "{{ .Site.Params.avatarURL2 | relURL }}";
+            let alternateAvatarVisible = false;
+            let cursorTimer;
+            let hintTimer;
+
+            if (!avatar || !avatarButton || !avatarHint || !avatarURL2) return;
+
+            avatarButton.addEventListener('click', () => {
+                alternateAvatarVisible = !alternateAvatarVisible;
+                avatar.src = alternateAvatarVisible ? avatarURL2 : avatarURL1;
+                avatarButton.setAttribute('aria-pressed', String(alternateAvatarVisible));
+                avatarButton.setAttribute(
+                    'aria-label',
+                    alternateAvatarVisible ? 'Restore primary portrait' : 'Show alternate portrait'
+                );
+
+                clearTimeout(cursorTimer);
+                clearTimeout(hintTimer);
+                avatarHint.classList.remove('is-visible');
+                void avatarHint.offsetWidth;
+                avatarHint.textContent = alternateAvatarVisible ? 'You Found Me!' : 'Bye~';
+                avatarHint.classList.add('is-visible');
+
+                hintTimer = setTimeout(() => {
+                    avatarHint.classList.remove('is-visible');
+                }, 1000);
+
+                cursorTimer = setTimeout(() => {
+                    document.documentElement.classList.toggle(
+                        'star-cursor-active',
+                        alternateAvatarVisible
+                    );
+                }, 1000);
+            });
+        })();
     </script>
 
 </div>
