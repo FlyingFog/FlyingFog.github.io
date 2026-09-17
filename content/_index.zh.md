@@ -10,6 +10,8 @@ mottos:
 
 中山大学软件工程学院，InplusLab实验室，软件工程PhD，主要研究问题包括软件安全和智能合约。同时，基于实验室在数字经济和数字化领域的长期耕耘，我也尝试在顶层设计和实施路径上为数字经济发展添砖加瓦，参与到国内顶级政府机构和企业的建设途径中。
 
+目前，我是一名独立开发者，主要开发面向智能体的工具。
+
 ### 项目经历
 
 依托中山大学InplusLab实验室，参与和完成多项软课题和研究课题项目。
@@ -60,5 +62,6 @@ Zeqin Liao, Henglong Liang, Yuhong Nan, **Sicheng Hao**, Zibin Zheng, Juan Zhai,
 Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.  
 [PDF](https://doi.org/10.1145/3597926.3598111), [Code](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
-**[完整论文列表 →](./publications/)**
+[**博士学位论文**] 基于一致性检查的智能合约安全保障技术. 2026.
 
+**[完整论文列表 →](./publications/)**

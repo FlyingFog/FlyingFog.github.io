@@ -8,7 +8,10 @@ mottos:
   - Life is too long to end at the grave.
 ---
 
-I am a PhD student working on software engineering at the [Inplus Lab](https://inpluslab.com/) of Sun Yat-sen University. My research interests include *software engineering, coding agent and smart contracts*. I am supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, based on soft programs of our lab, I have been drawing much effort on the digital economy and data assets. 
+I am a PhD working on software engineering at the [Inplus Lab](https://inpluslab.com/) of Sun Yat-sen University. My research interests include *software engineering, coding agents and smart contracts*. I am supervised by Associate Prof. [Yuhong Nan](https://nanyuhong.github.io/) and Prof. [Zibin Zheng](http://www.zibinzheng.com), co-working with many awesome lab fellows. Meanwhile, based on soft programs of our lab, I have been drawing much effort on the digital economy and data assets. 
+
+Currently, I am an independent developer working on agent-oriented tools. Coming soon at [OriginAIf](https://github.com/OriginAIf), maybe. 
+
 
 ### Research Publication
 > I am now focusing on different security aspects of smart contracts. Besides basic program analysis, I am trying to solve problems between development intention and code.
@@ -37,7 +40,11 @@ Zeqin Liao, Henglong Liang, Yuhong Nan, ***Sicheng Hao***, Zibin Zheng, Juan Zha
 Zeqin Liao, ***Sicheng Hao***, Yuhong Nan, Zibin Zheng.  
 [[PDF]](https://doi.org/10.1145/3597926.3598111), [[Code]](https://github.com/InPlusLab/SmartState), [Slide(My Version)](./pdf/SmartState%20Slide.pdf)
 
+
+[**Thesis**] Consistency-Checking-Based Security Assurance Technologies for Smart Contracts. 2026.
+
 **[Full pub →](./publications/)**
+
 
 
 ### Project & Program
